@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dcc"
+    android:orientation="vertical"
+    tools:context="com.example.kritisharma.mapapp.stud">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Room 1"
+            android:id="@+id/rm1"
+            android:textColor="@android:color/holo_red_light"
+            android:background="@android:color/holo_green_light"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Room 2"
+            android:id="@+id/rm2"
+            android:textColor="@android:color/holo_red_light"
+            android:background="#FFBD33"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Room 3"
+            android:id="@+id/rm3"
+            android:textColor="@android:color/holo_red_light"
+            android:background="#ff69b4"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Room 4"
+            android:textColor="@android:color/holo_red_light"
+            android:background="@android:color/holo_green_light"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Room 5"
+            android:textColor="@android:color/holo_red_light"
+            android:background="#FFBD33"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Room 6"
+            android:textColor="@android:color/holo_red_light"
+            android:background="#ff69b4"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Room 7"
+            android:textColor="@android:color/holo_red_light"
+            android:background="@android:color/holo_green_light"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Room 8"
+            android:textColor="@android:color/holo_red_light"
+            android:background="#FFBD33"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Room 9"
+            android:textColor="@android:color/holo_red_light"
+            android:background="#ff69b4"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+</LinearLayout>
